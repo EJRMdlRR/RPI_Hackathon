@@ -1,3 +1,4 @@
 def weight(class_results):
     for result in class_results:
-        alphaber.index[result]
+        alphabet.index[result]
+testing, will this show up in github
