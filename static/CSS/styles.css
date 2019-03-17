@@ -90,3 +90,8 @@
     transition: 1.5s;
     color: black;
 }
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
