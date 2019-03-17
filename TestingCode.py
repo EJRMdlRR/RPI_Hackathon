@@ -17,17 +17,21 @@ def is_open(objects):
         for day_info in week_ranges:
             times = day_info.get('times')
             if times != []:
-                print(times)
                 open_t = (times[0].get('open_time')).split(':')
-                close_t = (times[0].get('open_time')).split(':')
+                close_t = (times[0].get('close_time')).split(':')
                 time_open = float(open_t[0]) + (float(open_t[1]) / 60)
                 time_closed = float(close_t[0]) + (float(close_t[1]) / 60) - 1
                 current = datetime.now()
                 present = float(current.hour) + float(current.minute / 60)
-                if time_open < present < time_closed:
-                    boolean = True
+                if time_closed < 5:
+                    if time_open < present:
+                        return True
+                elif time_open < present < time_closed:
+                    return True
             else:
-                boolean = False
+                return False
+        else:
+            return True
 
 for objects in info:
     address = objects.get('address_obj')
@@ -37,15 +41,14 @@ for objects in info:
         week_ranges = hours.get('week_ranges')
         for day_info in week_ranges:
             times = day_info.get('times')
+            print(times)
             if times != []:
-                print(times)
                 open_t = (times[0].get('open_time')).split(':')
-                close_t = (times[0].get('open_time')).split(':')
+                close_t = (times[0].get('close_time')).split(':')
                 time_open = float(open_t[0]) + (float(open_t[1]) / 60)
-                time_closed = float(close_t[0]) + (float(close_t[1]) / 60) + 11
+                time_closed = float(close_t[0]) + (float(close_t[1]) / 60) - 1
                 current = datetime.now()
                 present = float(current.hour) + float(current.minute / 60)
-                print(time_open, present, time_closed)
                 if time_closed < 5:
                     if time_open < present:
                         boolean = True
