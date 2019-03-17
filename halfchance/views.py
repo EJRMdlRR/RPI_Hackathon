@@ -2,20 +2,22 @@ from django.shortcuts import render, get_object_or_404,redirect
 from django.http import HttpRequest, HttpResponseRedirect, HttpResponse
 import json
 import urllib.request
+from urllib.request import urlopen
 import random
 from datetime import datetime
 import calendar
 
-"""
-This function takes the geo-code and the budget (as "$" to "$$$$") and sorts
-through all of the resturants to find the top ~25% (by rating) that are in the
-user's price range. Then, we return a list of these resturant objects.
-"""
+# class Restaurant:
+#   def __init__(self, name, address):
+#     self.name = name
+#     self.address = address
+
+
 def getResturantByPrice(locationCode, budget):
     #Gets list of resturant data
     resturants = json.load(urlopen("http://api.tripadvisor.com/api/partner/2.0/location/" \
-                             + userLocation \
-                             +"?key=2f5aef9e-d399-4298-9986-ea6305c270a8"))
+                             + locationCode \
+                             +"/restaurants?key=1a389592-f59a-42dc-ba30-9695ed10b358"))
     ratingThreshold = 3.0
     ratingInterval = 0.1    
     resturantThreshold = 10
@@ -31,8 +33,8 @@ def getResturantByPrice(locationCode, budget):
         badResturants.clear()
         goodResturants.clear()        
         #sort resturants into good & bad based on rating
-        for resturant in resturants:
-            if resturant["rating"] < ratingThreshold and resturant["price_level"].count("$") <= budget.count("$"):
+        for resturant in resturants["data"]:
+            if float(resturant["rating"]) < ratingThreshold and resturant["price_level"].count("$") <= budget.count("$"):
                 badResturants.append(resturant)
             elif resturant["price_level"].count("$") <= budget.count("$"):
                 goodResturants.append(resturant)
@@ -49,11 +51,6 @@ def getResturantByPrice(locationCode, budget):
             restRatioThreshold -= ratingInterval
     return goodResturants
 
-"""
-This function takes genre (cuisines & dishes wanted) and a list of resturants
-and a list of all possible food dishes then, adds the resturants that have
-wanted dishes to a list and returns it.
-"""
 def getResturantDishes(resturants, genre, allFoodDishes):
     goodResturants = []
     for resturant in resturants:
@@ -61,20 +58,13 @@ def getResturantDishes(resturants, genre, allFoodDishes):
         if resturant["description"]:
             L = resturant["description"].lower().split()
         else:
-            L = []
-        for words in [x["text"].lower().split() for x in resturant["reviews"] ]:
-            L.extend(words)        
+            L = []   
         for word in L:
             if word in allFoodDishes:
                 goodResturant.append(resturant)
         L.clear() 
     return goodResturants
 
-"""
-This function take in geoCode and budget, gets a list of possible resturants
-from that and then finds the resturants which fall into the genre (food types
-and dishes) category. Returns list of suitable resturants.
-"""
 def getResturantsNever(locationCode, budget, genre, allFoodDishes):
     goodResturantsCopy = getResturantByPrice(locationCode, budget)
     goodResturants = []
@@ -91,7 +81,7 @@ def getResturantsNever(locationCode, budget, genre, allFoodDishes):
         count = 0
     goodResturants.extend(getResturantDishes(goodResturantsCopy \
                                              , genre, allFoodDishes))
-    return goodResturants
+    return list(goodResturants)
 
 def is_open(objects):
     boolean = False
@@ -149,5 +139,16 @@ def fiftyfifty(request):
     return render(request, 'address.html', context={'output':output})
 
 def never(request):
-    restaurants = getResturantsNever('48739', '$$', ['american', 'asian'], [])
-    return render(request, 'never.html', context={'restaurants', restaurant})
+    # restaurants = getResturantsNever('48739', '$$', ['american', 'asian'], [])
+    # print('RESTAURANTS')
+    # print(restaurants)
+    # restuarants = ['']
+    locationCode = [420263, 7376336, 7193910, 10490853, 1153096, 2093018]
+    r = []
+    for x in locationCode:
+        r.append(json.load(urlopen("http://api.tripadvisor.com/api/partner/2.0/location/" \
+                             + str(x) \
+                             +"/restaurants?key=1a389592-f59a-42dc-ba30-9695ed10b358"))["data"][0])
+    restaurant = random.choice(r)
+    print(restaurant)
+    return render(request, 'never.html', context={'restaurant':restaurant})
