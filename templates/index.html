@@ -10,22 +10,21 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body style="overflow: hidden;">
-
-        <div class="column left">
-            <div class="fader">
-                <div class="title-box">
-                    <h1 class="title-text" style="transition: 0s;">Never Have <br>I Ever</h1>
+        <div class="outer">
+            <div class="inner text">
+                <!-- <p class="description">NEENENENEN</p> -->
+                <div class="help" style="width: 100px; margin-left: 85vw;">
+                    <div>
+                        <p style="color: #F9ECA4; text-align: center; margin-top: -7vh; margin-right: 2vw; font-size: 30px;">?</p>
+                    </div>
+                    <!-- <p>ef</p> -->
+                    <div class="hideme" style="width: 70vw; margin-left: -75vw">
+                        <p>This is a website to help you decide what to eat. Click on F to go to a random restaurant in your city, rated either 1 or 5 stars. Click on N to select some criteria then be given a random fitting restaurant.</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="column right">
-            <div class="texter">
-            <div class="fader">
-                <div class="title-box">
-                    <a href= "{% url 'fiftyfifty' %}"><h1 class="title-text" style="transition: 0s;">Fifty-Fifty</h1></a>
-                </div>
-            </div>
+                <a href= "{% url 'fiftyfifty' %}"><h1 style="margin-left: 20vw;">F</h1></a>
+                
+                <a href= "{% url 'never' %}"><h1 style="margin-left: 35vw;">N</h1></a>
             </div>
         </div>
 
