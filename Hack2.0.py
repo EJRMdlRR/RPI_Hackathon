@@ -13,10 +13,8 @@ def is_open(objects):
         for day_info in week_ranges:
             day = day_info.get('localized_day_name')
             if day == calendar.day_name[datetime.today().weekday()]:
-                print(day_info)
                 times = day_info.get('times')
                 if times != []:
-                    print(times)
                     open_t = (times[0].get('open_time')).split(':')
                     close_t = (times[0].get('close_time')).split(':')
                     time_open = float(open_t[0]) + (float(open_t[1]) / 60)
@@ -25,13 +23,14 @@ def is_open(objects):
                     present = float(current.hour) + float(current.minute / 60)
                     if time_closed < 5:
                         if time_open < present:
-                            return True
+                            boolean = True
                     elif time_open < present < time_closed:
-                        return True
+                        boolean = True
             else:
-                return False
+                boolean = False
     else:
-        return True
+        boolean = True
+    return boolean 
 
 data = json.load(urllib.request.urlopen("http://api.tripadvisor.com/api/partner/2.0/location/48739/restaurants?key=2f5aef9e-d399-4298-9986-ea6305c270a8"))
 info = data.get('data')
@@ -39,6 +38,7 @@ options = []
 
 for objects in info:
     if is_open(objects):
+        print(objects)
         ratings = float(objects.get('rating'))
         if (ratings > 4) or (ratings < 2):
             address = objects.get('address_obj')

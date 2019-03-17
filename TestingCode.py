@@ -8,6 +8,7 @@ data = json.load(urllib.request.urlopen("http://api.tripadvisor.com/api/partner/
 info = data.get('data')
 options = []
 
+'''
 def is_open(objects):
     address = objects.get('address_obj')
     ratings = objects.get('rating')
@@ -33,8 +34,9 @@ def is_open(objects):
                 return False
         else:
             return True
+'''
 
-for objects in info:
+def is_open(objects):
     address = objects.get('address_obj')
     ratings = objects.get('rating')
     hours = objects.get('hours')
@@ -60,7 +62,7 @@ for objects in info:
                 boolean = False
     else:
         boolean = True
-    print(objects)
-    print(day)
-    print(times)
-    print(boolean)
+    return boolean    
+
+for objects in info:
+    print(is_open(objects))
