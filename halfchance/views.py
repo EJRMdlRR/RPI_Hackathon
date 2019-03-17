@@ -13,9 +13,9 @@ user's price range. Then, we return a list of these resturant objects.
 """
 def getResturantByPrice(locationCode, budget):
     #Gets list of resturant data
-    resturants = json.load(urllib.request.urlopen("http://api.tripadvisor.com/api/partner/2.0/location/" \
-                             + locationCode \
-                             +"?key=1a389592-f59a-42dc-ba30-9695ed10b358"))
+    resturants = json.load(urlopen("http://api.tripadvisor.com/api/partner/2.0/location/" \
+                             + userLocation \
+                             +"?key=2f5aef9e-d399-4298-9986-ea6305c270a8"))
     ratingThreshold = 3.0
     ratingInterval = 0.1    
     resturantThreshold = 10
@@ -32,13 +32,9 @@ def getResturantByPrice(locationCode, budget):
         goodResturants.clear()        
         #sort resturants into good & bad based on rating
         for resturant in resturants:
-            print('RESTAURANT')
-            print(resturant)
-            rating = resturant.get('rating')
-            price_level = resturant.get('price_level')
-            if rating < ratingThreshold and price_level.count("$") <= budget.count("$"):
+            if resturant["rating"] < ratingThreshold and resturant["price_level"].count("$") <= budget.count("$"):
                 badResturants.append(resturant)
-            elif price_level.count("$") <= budget.count("$"):
+            elif resturant["price_level"].count("$") <= budget.count("$"):
                 goodResturants.append(resturant)
         #changes rating if one list is too heavy
         if not (len(badResturants)/len(goodResturants) < restRatioThreshold < restRatioThreshold + 0.5):
@@ -93,9 +89,9 @@ def getResturantsNever(locationCode, budget, genre, allFoodDishes):
         if count > 0:
             goodResturants.append(resturant)
         count = 0
-    #goodResturants.extend(getResturantDishes(goodResturantsCopy \
-    #                                         , genre, allFoodDishes))
-    return list(goodResturants)
+    goodResturants.extend(getResturantDishes(goodResturantsCopy \
+                                             , genre, allFoodDishes))
+    return goodResturants
 
 def is_open(objects):
     boolean = False
@@ -138,6 +134,7 @@ def fiftyfifty(request):
     options = []
 
     for objects in info:
+        # print(objects)
         if is_open(objects):
             ratings = float(objects.get('rating'))
             if (ratings >= 4) or (ratings <= 2):
