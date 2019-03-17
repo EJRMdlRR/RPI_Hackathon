@@ -1,0 +1,35 @@
+{% load bootstrap3 %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>50/50</title>
+        <link href = "{% static 'IMG/icon.png' %}" rel="icon" type="image/gif">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href = "{% static 'CSS/styles.css' %}" rel = "stylesheet" type = "text/css" >
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body style="overflow: hidden;">
+
+        <div class="column left">
+            <div class="fader">
+                <div class="title-box">
+                    <h1 class="title-text" style="transition: 0s;">Fifty-Fifty</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="column right">
+            <div class="texter">
+            <div class="fader">
+                <div class="title-box">
+                    <h1 class="title-text" style="transition: 0s;">Never Have <br>I Ever</h1>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="{% static 'JS/slideshow.js' %}"></script>
+    </body>
+</html>

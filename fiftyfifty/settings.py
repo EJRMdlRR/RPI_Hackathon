@@ -81,8 +81,8 @@ TEMPLATES = [
 ]
 
 
-# WSGI_APPLICATION = 'fiftyfifty.wsgi.application'
-WSGI_APPLICATION = 'django.contrib.auth'
+WSGI_APPLICATION = 'fiftyfifty.wsgi.application'
+# WSGI_APPLICATION = 'django.contrib.auth'
 
 
 # Database

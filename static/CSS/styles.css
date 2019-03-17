@@ -1,0 +1,92 @@
+.body {
+    font-family: 'Raleway',sans-serif;
+}
+
+.column {
+    height: 100vh;
+    width: 50vw;
+    float: left;
+}
+
+/* .left:hover{
+    background: #7c563d;
+    color: #8e8176;
+    color: black;
+    transition: 2s;
+} */
+
+.left{
+    background: url("../IMG/mountain.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: transparent;
+    transition: 2s;
+}
+
+/* .right:hover {
+    background: #F0F0F0;
+    color: black;
+    color: white;
+    transition: 2s;
+} */
+
+.right{
+    background: url("../IMG/coin.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.right:hover {
+    opacity: 0.5;
+    transition: 1.5s;
+}
+
+.left:hover {
+    opacity: 0.5;
+    transition: 1.5s;
+}
+
+.fader {
+    height: 100vh;
+    background: transparent;
+    color: transparent;
+    transition: 1.5s;
+}
+
+.fader:hover {
+    background: gray;
+    opacity: 0.5;
+    transition: 1.5s;
+    color: black;
+}
+
+.title-box {
+    padding-top: 35vh;
+    text-align: center;
+    max-width: 30vw;
+    overflow-wrap: normal;
+    padding-left: 20vw;
+}
+
+.title-text {
+    font-size: 7.5vh;
+    font-weight: bold;
+    transition: 0s;
+    /* animation-delay: 2s */
+}
+
+.fade:hover {opacity:1}
+
+.texter {
+    height: 100vh;
+    background: transparent;
+    color: transparent;
+    transition: 1.5s;
+}
+
+.texter:hover {
+    opacity: 1;
+    transition: 1.5s;
+    color: black;
+}
