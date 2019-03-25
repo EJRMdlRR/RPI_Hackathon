@@ -1,0 +1,14 @@
+setup.py
+tripadvisorbot/__init__.py
+tripadvisorbot/items.py
+tripadvisorbot/pipelines.py
+tripadvisorbot/settings.py
+tripadvisorbot.egg-info/PKG-INFO
+tripadvisorbot.egg-info/SOURCES.txt
+tripadvisorbot.egg-info/dependency_links.txt
+tripadvisorbot.egg-info/entry_points.txt
+tripadvisorbot.egg-info/top_level.txt
+tripadvisorbot/spiders/__init__.py
+tripadvisorbot/spiders/crawlerhelper.py
+tripadvisorbot/spiders/dmoz.py
+tripadvisorbot/spiders/tripadvisor-restaurant.py

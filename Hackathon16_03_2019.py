@@ -1,9 +1,9 @@
 from datetime import datetime
 import math
 cities = [('Hong Kong, China','Home-g294217'), ('Singapore','Home-g294265'), ('Bangkok, Thailand','Home-g293916'), \
-'London,United Kingdom','Home-g186338'), ('Paris, France','Home-g187147'), ('Macau','Home-g664891'), ('New York City, USA','Home-g60763'), \
-'Shenzhen, China','Home-g297415'), ('Kuala Lumpur, Malaysia','Home-g298570'), ('Antalya, Turkey','Home-g297962'), \
-'Istanbul, Turkey','Home-g293974'), ('Dubai, United Arab Emirates','Home-g295424'), ('Seoul, South Korea','Home-g294197'), \
+('London,United Kingdom','Home-g186338'), ('Paris, France','Home-g187147'), ('Macau','Home-g664891'), ('New York City, USA','Home-g60763'), \
+('Shenzhen, China','Home-g297415'), ('Kuala Lumpur, Malaysia','Home-g298570'), ('Antalya, Turkey','Home-g297962'), \
+('Istanbul, Turkey','Home-g293974'), ('Dubai, United Arab Emirates','Home-g295424'), ('Seoul, South Korea','Home-g294197'), \
 ('Rome, Italy','Home-g187791'), ('Phuket, Thailand','Home-g293920'), ('Guangzhou, China','Home-g298555'), ('Mecca, Saudi Arabia','Home-g293993'), \
 ('Pattaya, Thailand','Home-g293919'), ('Taipei, Taiwan','Home-g293913'), ('Miami, USA','Home-g34439'), ('Prague, Czech Republic','Home-g274707'), \
 ('Shanghai, China','Home-g308272'), ('Las Vegas, USA','Home-g45963'), ('Milan, Italy','Home-g187849'), ('Barcelona, Spain','Home-g187497'), \
@@ -30,7 +30,7 @@ cities = [('Hong Kong, China','Home-g294217'), ('Singapore','Home-g294265'), ('B
 ('Artvin, Turkey','Home-g652371')]
 
 
-
+print(cities)
 '''
 grade_alphabet = ['A','B','C','D','F']
 

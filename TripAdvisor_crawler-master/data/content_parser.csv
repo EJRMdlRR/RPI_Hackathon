@@ -1,11 +1,182 @@
-hotel_id,address,rank,phone,n_Excellent,n_VeryGood,n_Average,n_Poor,n_Terrible
-1,"Banjar Kepitu, Desa Tagalalang, Ubud 80561, Indonesia",排名第 1 (共 227 家) 的烏布飯店,+62 361 4792553,0,5,54,1029,1
-2,"Banjar Bresela, Desa Bresela, Ubud 80572, Indonesia",排名第 6 (共 227 家) 的烏布飯店,+62 361 978098,0,0,0,5,0
-3,"Jl. Raya Campuhan, Ubud 80571, Indonesia",排名第 13 (共 227 家) 的烏布飯店,+62 361 974466,1,6,48,517,0
-4,"Jl. Raya Silungan | Banjar Silungan, Lodtunduh, Ubud 80571, Indonesia",排名第 7 (共 227 家) 的烏布飯店,,,,,,
-5,"Banjar Carik, Desa Puhu, Payangan 80572, Indonesia",排名第 1 (共 11 家) 的佩艷艮飯店,+62 361 752111,,,,,
-6,"Jl. Kayu Aya, Seminyak 80361, Indonesia",排名第 4 (共 151 家) 的塞米雅客飯店,,5,17,79,708,9
-7,"Jl. M.H. Thamrin no. 81 | Central Jakarta, Jakarta 10310, Indonesia",排名第 2 (共 512 家) 的雅加達飯店,+62 21 29938888,3,11,112,548,4
-8,"Jl. Kelabang Moding, Ubud 80571, Indonesia",排名第 11 (共 227 家) 的烏布飯店,,,,,,
-9,"Jl. Monkey Forest, Ubud 80571, Indonesia",排名第 12 (共 227 家) 的烏布飯店,,1,4,50,628,0
-10,"Jalan Lebak Sari 8 Petitenget, Seminyak 80361, Indonesia",排名第 1 (共 151 家) 的塞米雅客飯店,,1,5,31,451,0
+hotel_id,address,rank,phone,n_Excellent,n_VeryGood,n_Average,n_Poor,n_Terrible
+1,"853 4th Ave, Troy, NY 12182-2005",b'#1 of 169 Restaurants in Troy',+1 518-235-0444,89,35,9,0,0
+2,"217 Broadway, Troy, NY 12180-3209",b'#2 of 169 Restaurants in Troy',+1 518-326-3450,102,29,8,4,2
+3,"377 River St, Troy, NY 12180-3220",b'#3 of 169 Restaurants in Troy',+1 518-308-0400,275,265,107,22,12
+4,"9 Broadway, Troy, NY 12180-3217",b'#4 of 169 Restaurants in Troy',+1 518-273-7700,135,74,30,8,3
+5,"417 River St, Troy, NY 12180-2822",b'#5 of 169 Restaurants in Troy',+1 518-273-2337,176,183,60,20,13
+6,"266 4th St, Troy, NY 12180-4505",b'#6 of 169 Restaurants in Troy',+1 518-271-1111,57,23,1,2,0
+7,"685 Hoosick Rd, Troy, NY 12180-8818",b'#7 of 169 Restaurants in Troy',+1 518-272-0036,137,50,31,14,7
+8,"135 4th St, Troy, NY 12180-4102",b'#8 of 169 Restaurants in Troy',+1 518-874-1899,43,33,3,1,0
+9,"2243 15th St, Troy, NY 12180-3059",b'#9 of 169 Restaurants in Troy',+1 518-273-1170,68,25,8,4,1
+10,"254 Broadway, Troy, NY 12180-3235",b'#10 of 169 Restaurants in Troy',+1 518-874-1938,56,55,5,5,4
+11,"184 River St, Troy, NY 12180-3813",b'#11 of 169 Restaurants in Troy',+1 518-270-9404,38,17,2,1,0
+12,"85 4th St, Troy, NY 12180-3901",b'#12 of 169 Restaurants in Troy',+1 518-273-8546,87,23,11,3,5
+13,"1300 15th St, Troy, NY 12180-4319",b'#13 of 169 Restaurants in Troy',+1 518-271-6892,62,19,8,3,2
+14,"12 2nd St, Troy, NY 12180-3921",b'#14 of 169 Restaurants in Troy',+1 518-326-3450,59,26,9,5,3
+15,"95 Ferry St # 97, Troy, NY 12180-4118",b'#15 of 169 Restaurants in Troy',+1 518-272-3413,19,13,1,0,0
+16,"99 Congress St, Troy, NY 12180-4105",b'#16 of 169 Restaurants in Troy',+1 518-272-2422,30,17,4,0,1
+17,"572 2nd Ave, Troy, NY 12182-2599",b'#17 of 169 Restaurants in Troy',+1 518-235-8879,44,29,6,3,5
+18,"235 Hoosick St, Troy, NY 12180-2428",b'#18 of 169 Restaurants in Troy',+1 518-272-1702,36,58,17,7,8
+19,"104 3rd St, Troy, NY 12180-4037",b'#19 of 169 Restaurants in Troy',+1 518-273-1872,18,26,8,0,1
+20,"294 N Greenbush Rd, Troy, NY 12180-8515",b'#20 of 169 Restaurants in Troy',+1 518-286-2603,62,32,24,10,10
+21,"680 River St, Troy, NY 12180-1503",b'#21 of 169 Restaurants in Troy',+1 518-272-9740,25,11,3,0,0
+22,"172 River St, Troy, NY 12180-3857",b'#22 of 169 Restaurants in Troy',+1 518-328-6281,16,7,1,2,0
+23,"49 3rd St, Troy, NY 12180-3907",b'#23 of 169 Restaurants in Troy',+1 518-326-0630,14,17,4,0,0
+24,"118 4th St, Troy, NY 12180-4065",b'#24 of 169 Restaurants in Troy',+1 518-629-9688,14,3,1,0,0
+25,"99 N Greenbush Rd, Troy, NY 12180-8329",b'#25 of 169 Restaurants in Troy',+1 518-283-0809,31,22,16,4,5
+26,"27 3rd St, Troy, NY 12180-3205",b'#26 of 169 Restaurants in Troy',+1 518-272-6058,15,16,8,1,0
+27,"9 1st St, Troy, NY 12180-3863",b'#27 of 169 Restaurants in Troy',+1 518-326-8492,34,40,20,9,8
+28,"125 4th St, Troy, NY 12180-3912",b'#28 of 169 Restaurants in Troy',+1 518-274-0071,23,19,5,1,2
+29,"111 Congress St, Troy, NY 12180-4144",b'#29 of 169 Restaurants in Troy',+1 518-272-9481,25,5,9,2,0
+30,"403 River St, Ste 1, Troy, NY 12180-2870",b'#30 of 169 Restaurants in Troy',+1 518-270-9253,16,2,4,0,0
+31,"853 4th Ave, Troy, NY 12182-2005",b'#1 of 169 Restaurants in Troy',+1 518-235-0444,89,35,9,0,0
+32,"217 Broadway, Troy, NY 12180-3209",b'#2 of 169 Restaurants in Troy',+1 518-326-3450,102,29,8,4,2
+33,"377 River St, Troy, NY 12180-3220",b'#3 of 169 Restaurants in Troy',+1 518-308-0400,275,265,107,22,12
+34,"9 Broadway, Troy, NY 12180-3217",b'#4 of 169 Restaurants in Troy',+1 518-273-7700,135,74,30,8,3
+35,"417 River St, Troy, NY 12180-2822",b'#5 of 169 Restaurants in Troy',+1 518-273-2337,176,183,60,20,13
+36,"266 4th St, Troy, NY 12180-4505",b'#6 of 169 Restaurants in Troy',+1 518-271-1111,57,23,1,2,0
+37,"685 Hoosick Rd, Troy, NY 12180-8818",b'#7 of 169 Restaurants in Troy',+1 518-272-0036,137,50,31,14,7
+38,"135 4th St, Troy, NY 12180-4102",b'#8 of 169 Restaurants in Troy',+1 518-874-1899,43,33,3,1,0
+39,"2243 15th St, Troy, NY 12180-3059",b'#9 of 169 Restaurants in Troy',+1 518-273-1170,68,25,8,4,1
+40,"254 Broadway, Troy, NY 12180-3235",b'#10 of 169 Restaurants in Troy',+1 518-874-1938,56,55,5,5,4
+41,"184 River St, Troy, NY 12180-3813",b'#11 of 169 Restaurants in Troy',+1 518-270-9404,38,17,2,1,0
+42,"85 4th St, Troy, NY 12180-3901",b'#12 of 169 Restaurants in Troy',+1 518-273-8546,87,23,11,3,5
+43,"1300 15th St, Troy, NY 12180-4319",b'#13 of 169 Restaurants in Troy',+1 518-271-6892,62,19,8,3,2
+44,"12 2nd St, Troy, NY 12180-3921",b'#14 of 169 Restaurants in Troy',+1 518-326-3450,59,26,9,5,3
+45,"95 Ferry St # 97, Troy, NY 12180-4118",b'#15 of 169 Restaurants in Troy',+1 518-272-3413,19,13,1,0,0
+46,"99 Congress St, Troy, NY 12180-4105",b'#16 of 169 Restaurants in Troy',+1 518-272-2422,30,17,4,0,1
+47,"572 2nd Ave, Troy, NY 12182-2599",b'#17 of 169 Restaurants in Troy',+1 518-235-8879,44,29,6,3,5
+48,"235 Hoosick St, Troy, NY 12180-2428",b'#18 of 169 Restaurants in Troy',+1 518-272-1702,36,58,17,7,8
+49,"104 3rd St, Troy, NY 12180-4037",b'#19 of 169 Restaurants in Troy',+1 518-273-1872,18,26,8,0,1
+50,"294 N Greenbush Rd, Troy, NY 12180-8515",b'#20 of 169 Restaurants in Troy',+1 518-286-2603,62,32,24,10,10
+51,"680 River St, Troy, NY 12180-1503",b'#21 of 169 Restaurants in Troy',+1 518-272-9740,25,11,3,0,0
+52,"172 River St, Troy, NY 12180-3857",b'#22 of 169 Restaurants in Troy',+1 518-328-6281,16,7,1,2,0
+53,"49 3rd St, Troy, NY 12180-3907",b'#23 of 169 Restaurants in Troy',+1 518-326-0630,14,17,4,0,0
+54,"118 4th St, Troy, NY 12180-4065",b'#24 of 169 Restaurants in Troy',+1 518-629-9688,14,3,1,0,0
+55,"99 N Greenbush Rd, Troy, NY 12180-8329",b'#25 of 169 Restaurants in Troy',+1 518-283-0809,31,22,16,4,5
+56,"27 3rd St, Troy, NY 12180-3205",b'#26 of 169 Restaurants in Troy',+1 518-272-6058,15,16,8,1,0
+57,"9 1st St, Troy, NY 12180-3863",b'#27 of 169 Restaurants in Troy',+1 518-326-8492,34,40,20,9,8
+58,"125 4th St, Troy, NY 12180-3912",b'#28 of 169 Restaurants in Troy',+1 518-274-0071,23,19,5,1,2
+59,"111 Congress St, Troy, NY 12180-4144",b'#29 of 169 Restaurants in Troy',+1 518-272-9481,25,5,9,2,0
+60,"403 River St, Ste 1, Troy, NY 12180-2870",b'#30 of 169 Restaurants in Troy',+1 518-270-9253,16,2,4,0,0
+61,"50 N Greenbush Rd, Troy, NY 12180-8327",b'#31 of 169 Restaurants in Troy',+1 518-244-3535,14,7,7,1,0
+62,"64 Vandenburgh Ave, Troy, NY 12180-6030",b'#32 of 169 Restaurants in Troy',+1 518-274-9525,14,9,1,0,1
+63,"350 2nd Ave, Troy, NY 12182-3112",b'#33 of 169 Restaurants in Troy',+1 518-235-5552,19,7,1,2,0
+64,"46 3rd St, Troy, NY 12180-3906",b'#34 of 169 Restaurants in Troy',+1 518-272-8658,15,9,2,2,0
+65,"15 2nd St, Troy, NY 12180-4080",b'#35 of 169 Restaurants in Troy',+1 518-855-1520,15,7,5,3,0
+66,"379 Congress St, Black Gates, Troy, NY 12180-4322",b'#36 of 169 Restaurants in Troy',+1 518-662-4455,10,3,0,0,0
+67,"33 2nd St, Troy, NY 12180-4077",b'#37 of 169 Restaurants in Troy',+1 518-687-0345,12,22,4,2,2
+68,"536 Pawling Ave, Troy, NY 12180-5839",b'#38 of 169 Restaurants in Troy',+1 518-271-7700,15,6,1,0,1
+69,"71 Division St Ste 2, Troy, NY 12180-4141",b'#39 of 169 Restaurants in Troy',+1 518-272-9241,27,21,1,5,6
+70,"198 1st St, Corner of First & Adams, Troy, NY 12180-4611",b'#40 of 169 Restaurants in Troy',+1 518-326-2064,12,9,2,1,1
+71,"90 Congress St, Troy, NY 12180-4123",b'#41 of 169 Restaurants in Troy',+1 518-326-4303,9,7,3,1,0
+72,"211 Broadway, Troy, NY 12180-3209",b'#42 of 169 Restaurants in Troy',+1 518-326-3450,5,4,0,0,0
+73,"461 Broadway, Troy, NY 12180-3331",b'#43 of 169 Restaurants in Troy',+1 518-272-1000,8,2,0,0,1
+74,"282 River St, Troy, NY 12180-3224",b'#44 of 169 Restaurants in Troy',+1 518-852-1067,6,3,2,0,0
+75,"2312 15th St, Troy, NY 12180-2306",b'#45 of 169 Restaurants in Troy',+1 518-272-8188,8,14,1,0,2
+76,"407 Fulton St, Troy, NY 12180-3311",b'#46 of 169 Restaurants in Troy',+1 518-273-8744,13,11,6,1,3
+77,"50 2nd St, Troy, NY 12180-3927",b'#47 of 169 Restaurants in Troy',+1 518-429-4657,10,0,0,0,0
+78,"2701 Lavin Ct, Troy, NY 12180-1420",b'#48 of 169 Restaurants in Troy',,6,9,2,0,1
+79,"2301 15th St, Troy, NY 12180-2307",b'#49 of 169 Restaurants in Troy',+1 518-272-9383,10,10,3,1,1
+80,"475 5th Ave, Troy, NY 12182-2827",b'#50 of 169 Restaurants in Troy',+1 518-235-9199,7,5,2,1,0
+81,"32 4th St, Troy, NY 12180-0823",b'#51 of 169 Restaurants in Troy',+1 518-238-3037,6,0,0,0,0
+82,"425 River St, Troy, NY 12180-2865",b'#52 of 169 Restaurants in Troy',+1 518-273-2337,6,3,0,0,0
+83,"41 112th St, Troy, NY 12182-2807",b'#53 of 169 Restaurants in Troy',+1 518-235-4141,5,3,0,0,0
+84,"579 1st St, Troy, NY 12180-5538",b'#54 of 169 Restaurants in Troy',+1 518-274-1956,6,2,1,0,0
+85,"855 Hoosick Rd, Troy, NY 12180-6623",b'#55 of 169 Restaurants in Troy',+1 518-279-1566,20,19,22,6,10
+86,"740 Hoosick Rd, Troy, NY 12180-6672",b'#56 of 169 Restaurants in Troy',+1 516-273-3673,7,6,3,2,1
+87,"150 Speigletown Rd, Troy, NY 12182",b'#57 of 169 Restaurants in Troy',+1 518-235-5858,6,4,3,2,0
+88,"413 River St, Troy, NY 12180-2822",b'#58 of 169 Restaurants in Troy',+1 518-271-8787,5,0,0,0,0
+89,"200 Broadway Ste 101, Troy, NY 12180-0833",b'#59 of 169 Restaurants in Troy',+1 518-274-0015,4,6,0,0,0
+90,"814 Hoosick Rd, Troy, NY 12180-6628",b'#60 of 169 Restaurants in Troy',+1 518-279-4470,3,9,1,1,1
+91,"853 4th Ave, Troy, NY 12182-2005",b'#1 of 169 Restaurants in Troy',+1 518-235-0444,89,35,9,0,0
+92,"217 Broadway, Troy, NY 12180-3209",b'#2 of 169 Restaurants in Troy',+1 518-326-3450,102,29,8,4,2
+93,"377 River St, Troy, NY 12180-3220",b'#3 of 169 Restaurants in Troy',+1 518-308-0400,275,265,107,22,12
+94,"9 Broadway, Troy, NY 12180-3217",b'#4 of 169 Restaurants in Troy',+1 518-273-7700,135,74,30,8,3
+95,"417 River St, Troy, NY 12180-2822",b'#5 of 169 Restaurants in Troy',+1 518-273-2337,176,183,60,20,13
+96,"266 4th St, Troy, NY 12180-4505",b'#6 of 169 Restaurants in Troy',+1 518-271-1111,57,23,1,2,0
+97,"685 Hoosick Rd, Troy, NY 12180-8818",b'#7 of 169 Restaurants in Troy',+1 518-272-0036,137,50,31,14,7
+98,"135 4th St, Troy, NY 12180-4102",b'#8 of 169 Restaurants in Troy',+1 518-874-1899,43,33,3,1,0
+99,"2243 15th St, Troy, NY 12180-3059",b'#9 of 169 Restaurants in Troy',+1 518-273-1170,68,25,8,4,1
+100,"254 Broadway, Troy, NY 12180-3235",b'#10 of 169 Restaurants in Troy',+1 518-874-1938,56,55,5,5,4
+101,"184 River St, Troy, NY 12180-3813",b'#11 of 169 Restaurants in Troy',+1 518-270-9404,38,17,2,1,0
+102,"85 4th St, Troy, NY 12180-3901",b'#12 of 169 Restaurants in Troy',+1 518-273-8546,87,23,11,3,5
+103,"1300 15th St, Troy, NY 12180-4319",b'#13 of 169 Restaurants in Troy',+1 518-271-6892,62,19,8,3,2
+104,"12 2nd St, Troy, NY 12180-3921",b'#14 of 169 Restaurants in Troy',+1 518-326-3450,59,26,9,5,3
+105,"95 Ferry St # 97, Troy, NY 12180-4118",b'#15 of 169 Restaurants in Troy',+1 518-272-3413,19,13,1,0,0
+106,"99 Congress St, Troy, NY 12180-4105",b'#16 of 169 Restaurants in Troy',+1 518-272-2422,30,17,4,0,1
+107,"572 2nd Ave, Troy, NY 12182-2599",b'#17 of 169 Restaurants in Troy',+1 518-235-8879,44,29,6,3,5
+108,"235 Hoosick St, Troy, NY 12180-2428",b'#18 of 169 Restaurants in Troy',+1 518-272-1702,36,58,17,7,8
+109,"104 3rd St, Troy, NY 12180-4037",b'#19 of 169 Restaurants in Troy',+1 518-273-1872,18,26,8,0,1
+110,"294 N Greenbush Rd, Troy, NY 12180-8515",b'#20 of 169 Restaurants in Troy',+1 518-286-2603,62,32,24,10,10
+111,"680 River St, Troy, NY 12180-1503",b'#21 of 169 Restaurants in Troy',+1 518-272-9740,25,11,3,0,0
+112,"172 River St, Troy, NY 12180-3857",b'#22 of 169 Restaurants in Troy',+1 518-328-6281,16,7,1,2,0
+113,"49 3rd St, Troy, NY 12180-3907",b'#23 of 169 Restaurants in Troy',+1 518-326-0630,14,17,4,0,0
+114,"118 4th St, Troy, NY 12180-4065",b'#24 of 169 Restaurants in Troy',+1 518-629-9688,14,3,1,0,0
+115,"99 N Greenbush Rd, Troy, NY 12180-8329",b'#25 of 169 Restaurants in Troy',+1 518-283-0809,31,22,16,4,5
+116,"27 3rd St, Troy, NY 12180-3205",b'#26 of 169 Restaurants in Troy',+1 518-272-6058,15,16,8,1,0
+117,"9 1st St, Troy, NY 12180-3863",b'#27 of 169 Restaurants in Troy',+1 518-326-8492,34,40,20,9,8
+118,"125 4th St, Troy, NY 12180-3912",b'#28 of 169 Restaurants in Troy',+1 518-274-0071,23,19,5,1,2
+119,"111 Congress St, Troy, NY 12180-4144",b'#29 of 169 Restaurants in Troy',+1 518-272-9481,25,5,9,2,0
+120,"403 River St, Ste 1, Troy, NY 12180-2870",b'#30 of 169 Restaurants in Troy',+1 518-270-9253,16,2,4,0,0
+121,"50 N Greenbush Rd, Troy, NY 12180-8327",b'#31 of 169 Restaurants in Troy',+1 518-244-3535,14,7,7,1,0
+122,"64 Vandenburgh Ave, Troy, NY 12180-6030",b'#32 of 169 Restaurants in Troy',+1 518-274-9525,14,9,1,0,1
+123,"350 2nd Ave, Troy, NY 12182-3112",b'#33 of 169 Restaurants in Troy',+1 518-235-5552,19,7,1,2,0
+124,"46 3rd St, Troy, NY 12180-3906",b'#34 of 169 Restaurants in Troy',+1 518-272-8658,15,9,2,2,0
+125,"15 2nd St, Troy, NY 12180-4080",b'#35 of 169 Restaurants in Troy',+1 518-855-1520,15,7,5,3,0
+126,"379 Congress St, Black Gates, Troy, NY 12180-4322",b'#36 of 169 Restaurants in Troy',+1 518-662-4455,10,3,0,0,0
+127,"33 2nd St, Troy, NY 12180-4077",b'#37 of 169 Restaurants in Troy',+1 518-687-0345,12,22,4,2,2
+128,"536 Pawling Ave, Troy, NY 12180-5839",b'#38 of 169 Restaurants in Troy',+1 518-271-7700,15,6,1,0,1
+129,"71 Division St Ste 2, Troy, NY 12180-4141",b'#39 of 169 Restaurants in Troy',+1 518-272-9241,27,21,1,5,6
+130,"198 1st St, Corner of First & Adams, Troy, NY 12180-4611",b'#40 of 169 Restaurants in Troy',+1 518-326-2064,12,9,2,1,1
+131,"90 Congress St, Troy, NY 12180-4123",b'#41 of 169 Restaurants in Troy',+1 518-326-4303,9,7,3,1,0
+132,"211 Broadway, Troy, NY 12180-3209",b'#42 of 169 Restaurants in Troy',+1 518-326-3450,5,4,0,0,0
+133,"461 Broadway, Troy, NY 12180-3331",b'#43 of 169 Restaurants in Troy',+1 518-272-1000,8,2,0,0,1
+134,"282 River St, Troy, NY 12180-3224",b'#44 of 169 Restaurants in Troy',+1 518-852-1067,6,3,2,0,0
+135,"2312 15th St, Troy, NY 12180-2306",b'#45 of 169 Restaurants in Troy',+1 518-272-8188,8,14,1,0,2
+136,"407 Fulton St, Troy, NY 12180-3311",b'#46 of 169 Restaurants in Troy',+1 518-273-8744,13,11,6,1,3
+137,"50 2nd St, Troy, NY 12180-3927",b'#47 of 169 Restaurants in Troy',+1 518-429-4657,10,0,0,0,0
+138,"2701 Lavin Ct, Troy, NY 12180-1420",b'#48 of 169 Restaurants in Troy',,6,9,2,0,1
+139,"2301 15th St, Troy, NY 12180-2307",b'#49 of 169 Restaurants in Troy',+1 518-272-9383,10,10,3,1,1
+140,"475 5th Ave, Troy, NY 12182-2827",b'#50 of 169 Restaurants in Troy',+1 518-235-9199,7,5,2,1,0
+141,"32 4th St, Troy, NY 12180-0823",b'#51 of 169 Restaurants in Troy',+1 518-238-3037,6,0,0,0,0
+142,"425 River St, Troy, NY 12180-2865",b'#52 of 169 Restaurants in Troy',+1 518-273-2337,6,3,0,0,0
+143,"41 112th St, Troy, NY 12182-2807",b'#53 of 169 Restaurants in Troy',+1 518-235-4141,5,3,0,0,0
+144,"579 1st St, Troy, NY 12180-5538",b'#54 of 169 Restaurants in Troy',+1 518-274-1956,6,2,1,0,0
+145,"855 Hoosick Rd, Troy, NY 12180-6623",b'#55 of 169 Restaurants in Troy',+1 518-279-1566,20,19,22,6,10
+146,"740 Hoosick Rd, Troy, NY 12180-6672",b'#56 of 169 Restaurants in Troy',+1 516-273-3673,7,6,3,2,1
+147,"150 Speigletown Rd, Troy, NY 12182",b'#57 of 169 Restaurants in Troy',+1 518-235-5858,6,4,3,2,0
+148,"413 River St, Troy, NY 12180-2822",b'#58 of 169 Restaurants in Troy',+1 518-271-8787,5,0,0,0,0
+149,"200 Broadway Ste 101, Troy, NY 12180-0833",b'#59 of 169 Restaurants in Troy',+1 518-274-0015,4,6,0,0,0
+150,"814 Hoosick Rd, Troy, NY 12180-6628",b'#60 of 169 Restaurants in Troy',+1 518-279-4470,3,9,1,1,1
+151,"853 4th Ave, Troy, NY 12182-2005",b'#1 of 169 Restaurants in Troy',+1 518-235-0444,89,35,9,0,0
+152,"217 Broadway, Troy, NY 12180-3209",b'#2 of 169 Restaurants in Troy',+1 518-326-3450,102,29,8,4,2
+153,"377 River St, Troy, NY 12180-3220",b'#3 of 169 Restaurants in Troy',+1 518-308-0400,275,265,107,22,12
+154,"9 Broadway, Troy, NY 12180-3217",b'#4 of 169 Restaurants in Troy',+1 518-273-7700,135,74,30,8,3
+155,"417 River St, Troy, NY 12180-2822",b'#5 of 169 Restaurants in Troy',+1 518-273-2337,176,183,60,20,13
+156,"266 4th St, Troy, NY 12180-4505",b'#6 of 169 Restaurants in Troy',+1 518-271-1111,57,23,1,2,0
+157,"685 Hoosick Rd, Troy, NY 12180-8818",b'#7 of 169 Restaurants in Troy',+1 518-272-0036,137,50,31,14,7
+158,"135 4th St, Troy, NY 12180-4102",b'#8 of 169 Restaurants in Troy',+1 518-874-1899,43,33,3,1,0
+159,"2243 15th St, Troy, NY 12180-3059",b'#9 of 169 Restaurants in Troy',+1 518-273-1170,68,25,8,4,1
+160,"254 Broadway, Troy, NY 12180-3235",b'#10 of 169 Restaurants in Troy',+1 518-874-1938,56,55,5,5,4
+161,"184 River St, Troy, NY 12180-3813",b'#11 of 169 Restaurants in Troy',+1 518-270-9404,38,17,2,1,0
+162,"85 4th St, Troy, NY 12180-3901",b'#12 of 169 Restaurants in Troy',+1 518-273-8546,87,23,11,3,5
+163,"1300 15th St, Troy, NY 12180-4319",b'#13 of 169 Restaurants in Troy',+1 518-271-6892,62,19,8,3,2
+164,"12 2nd St, Troy, NY 12180-3921",b'#14 of 169 Restaurants in Troy',+1 518-326-3450,59,26,9,5,3
+165,"95 Ferry St # 97, Troy, NY 12180-4118",b'#15 of 169 Restaurants in Troy',+1 518-272-3413,19,13,1,0,0
+166,"99 Congress St, Troy, NY 12180-4105",b'#16 of 169 Restaurants in Troy',+1 518-272-2422,30,17,4,0,1
+167,"572 2nd Ave, Troy, NY 12182-2599",b'#17 of 169 Restaurants in Troy',+1 518-235-8879,44,29,6,3,5
+168,"235 Hoosick St, Troy, NY 12180-2428",b'#18 of 169 Restaurants in Troy',+1 518-272-1702,36,58,17,7,8
+169,"104 3rd St, Troy, NY 12180-4037",b'#19 of 169 Restaurants in Troy',+1 518-273-1872,18,26,8,0,1
+170,"294 N Greenbush Rd, Troy, NY 12180-8515",b'#20 of 169 Restaurants in Troy',+1 518-286-2603,62,32,24,10,10
+171,"680 River St, Troy, NY 12180-1503",b'#21 of 169 Restaurants in Troy',+1 518-272-9740,25,11,3,0,0
+172,"172 River St, Troy, NY 12180-3857",b'#22 of 169 Restaurants in Troy',+1 518-328-6281,16,7,1,2,0
+173,"49 3rd St, Troy, NY 12180-3907",b'#23 of 169 Restaurants in Troy',+1 518-326-0630,14,17,4,0,0
+174,"118 4th St, Troy, NY 12180-4065",b'#24 of 169 Restaurants in Troy',+1 518-629-9688,14,3,1,0,0
+175,"99 N Greenbush Rd, Troy, NY 12180-8329",b'#25 of 169 Restaurants in Troy',+1 518-283-0809,31,22,16,4,5
+176,"27 3rd St, Troy, NY 12180-3205",b'#26 of 169 Restaurants in Troy',+1 518-272-6058,15,16,8,1,0
+177,"9 1st St, Troy, NY 12180-3863",b'#27 of 169 Restaurants in Troy',+1 518-326-8492,34,40,20,9,8
+178,"125 4th St, Troy, NY 12180-3912",b'#28 of 169 Restaurants in Troy',+1 518-274-0071,23,19,5,1,2
+179,"111 Congress St, Troy, NY 12180-4144",b'#29 of 169 Restaurants in Troy',+1 518-272-9481,25,5,9,2,0
+180,"403 River St, Ste 1, Troy, NY 12180-2870",b'#30 of 169 Restaurants in Troy',+1 518-270-9253,16,2,4,0,0
+hotel_id,address,rank,phone,n_Excellent,n_VeryGood,n_Average,n_Poor,n_Terrible

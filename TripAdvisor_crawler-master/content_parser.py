@@ -7,13 +7,16 @@ from selenium import webdriver
 import requests
 import time
 import re
+import time
 
-domain = 'https://www.tripadvisor.com.tw'
+start = time.time()
+
+domain = 'https://www.tripadvisor.com'
 df = pd.read_csv('./data/url_parser.csv')
 total_hotels = len(df)
 debug = True
 if debug:
-    limit = 10
+    limit = 60
 else:
     limit = None
 
@@ -66,3 +69,6 @@ with open('./data/content_parser.csv', 'a') as csvfile:
                          }
                         )
         time.sleep(10)
+    
+end = time.time()
+print(end - start)
